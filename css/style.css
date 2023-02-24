@@ -1,0 +1,422 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+  color: rgba(21, 1, 1, 60%);
+  margin:0;
+  padding:0;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  color: rgba(21, 1, 1, 60%);
+
+}
+
+.d-f{
+  display: flex;
+}
+.jc-center{
+  justify-content: center;
+}
+.jc-sp-a{
+  justify-content: space-around;
+}
+.jc-sp-b{
+  justify-content: space-between;
+}
+.ai-center{
+  align-items: center;
+}
+
+.f-w{
+  flex-wrap: wrap;
+}
+
+.fd-c{
+  flex-direction: column;
+}
+.as-c{
+  align-self: center;
+}
+
+.mg-top15{
+  margin-top: 15px;
+}
+.container{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.header{
+  height: 79px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logo{
+  width: 79px;
+  height: 79px;
+  background-image: url(/img/logo.png);
+
+}
+.nav{
+  flex-grow: 0.5;
+}
+ul{
+  list-style-type: none;
+}
+
+.list{
+  cursor: pointer;
+}
+.active{
+  font-size: 11pt;
+  font-weight: 700;
+  color: rgba(210, 49, 102, 1);
+}
+
+.button{
+  width: 165px;
+  height: 49px;
+  background-color: rgba(210, 49, 102, 1);
+  color: #FAFAFA;
+  font-weight: 700;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionpink{
+  background-color:rgba(242, 206, 218, 30%);
+  padding: 40px 0;
+
+}
+
+.s1{
+  width: 100%;
+  height: 728px;
+  background-image:url(/img/icecream.png);
+  background-position: 105% 50%;
+  background-repeat: no-repeat;
+  background-size: math(564px*0.87) auto;
+}
+
+.text{
+  width: 55%;
+}
+
+h1{
+  margin: 0%;
+  font-family: 'Fredoka One', cursive;
+  font-size: 50pt;
+  color: #0F0101;
+  opacity: 90%;
+}
+h1 > span{
+  color: #D23166;
+}
+
+.text > p:first-child{
+  color: #0F0101;
+  letter-spacing: 1.5pt;
+}
+
+.info{
+  width: 87%;
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 300;
+  font-size: 18pt;
+  line-height: 27pt;
+  margin-bottom: 60px;
+}
+ 
+.card{
+  padding: 15px;
+  width: 220px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #0F0101;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.card>p{
+  margin-top: -3px;
+  text-align: center;
+  opacity: 60%;
+}
+
+.s2{
+  width: 100%;
+  height: 507px;
+  background-image:url(/img/ice-cream2.png);
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.s2>p{
+  font-size: 16pt;
+}
+
+h2{
+  color:#0F0101;
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 600;
+  font-size: 40pt ;
+}
+
+
+.active-menu{
+  color:#0F0101;
+  display: inline-block;
+  border-bottom: 3px solid #D64374;
+}
+
+.product-info{
+  width: 454px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+h3{
+  font-family: 'Hind Madurai', sans-serif;
+  color:#0F0101;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.price{
+  font-family: 'Hind Madurai', sans-serif;
+  color:#0F0101;
+  font-size: 26px;
+  font-weight: 400;
+}
+.price>span{
+  opacity: 70%;
+  font-size: 20px;
+  text-decoration: line-through;
+  
+}
+
+.swiper-photo{
+  margin-right: 10px;
+  width:58px ;
+  height: 58px;
+}
+.swiper h3{
+  font-size: 24px;
+  font-weight: 400;
+
+}
+.title{
+  line-height: 1px;
+}
+.title h3{
+  font-weight: 500;
+}
+.quotes{
+  line-height: 26px;
+  width: 325px;
+}
+
+.quotes::before{
+  position:relative;
+  top:-2px;
+  left:-5px;
+  width: 11px;
+  height: 10px;
+  content: url("/img/quoteopen.svg");
+}
+
+
+.quotes::after{
+  position:relative;
+  bottom: -2px;
+  right: -5px;
+  width: 11px;
+  height: 10px;
+  content: url("/img/quotesclose.svg");
+}
+
+.swiper-list>* {
+  margin: 10px 10px 0px 5px;
+}
+.photo{
+  margin: 0px 10px 0px 5px;
+  width: 35px;
+  height: 35px;
+}
+
+.photo-active{
+  display: inline-block;
+  border-radius:50%;
+  width: 58px;
+  height: 58px;
+  border: 1px solid #D64374;
+}
+
+.download-menu{
+  height:570px;
+}
+.phone{
+  display: inline-block;
+  border-radius:33px;
+  position: relative;
+  top:19px;
+  z-index: 13;
+}
+.download-info{
+  width: 63%;
+}
+
+.download-info h2{
+  margin-right: 85px;
+  font-size: 44px;
+  font-weight:500;
+  margin-bottom: 0;
+}
+
+.download-info p{
+
+  width: 605px;
+  font-size: 18px;
+
+}
+.select{
+  display: flex;
+  align-items: center;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+.select p{
+  margin: 10px;
+  font-size: 22px;
+  color:rgba(0, 0, 0, 1);
+}
+
+.download img{
+  margin-right: 10px;
+  margin-top: 30px;
+  width: 188px;
+
+}
+
+.send-email{
+  padding-top: 144px;
+  padding-bottom: 144px;
+}
+
+.send-email h3{
+  text-align: center;
+  font-size: 44px;
+  font-weight: 600;
+  width: 45%;
+}
+
+input[type=text]{
+  width: 617px;
+  height: 73px;
+  border: none;
+  background: rgba(250, 250, 250, 1);
+  border-radius:5px;
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+input[type=submit]{
+  position: relative;
+  
+  margin-left: -134px;
+  border: none;
+  width: 134px;
+  height: 75px;
+  background-color: #D64374;
+  color: #FAFAFA;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+input:focus{
+  outline: none;
+}
+
+.footer{
+  background-color: #000;
+  color: rgba(255, 255, 255,60%);
+  padding-top:73px;
+  padding-bottom: 101px;
+}
+
+.follow-icon img{
+  width: 15px;
+  margin-right: 10px;
+
+}
+.column1{
+  width: 20%;
+
+}
+h5{
+  color:#fff;
+  margin-bottom: 8px;
+}
+
+.column2{
+  margin-top: 73px;
+}
+.footer li{
+  line-height: 22px;
+}
+
+.active-column2{
+  color: #fff;
+}
+
+.column3{
+  margin-top: 80px;
+}
+
+form h5{
+  font-size: 16px;
+}
+
+input[type=email]{
+  margin:13px 0;
+  color:#ffffff;
+  width: 388px;
+  height: 55px;
+  background-color: #000;
+  border: 2px solid #D64374;
+  border-radius: 5px;
+  padding-left: 30px;
+  font-size: 14px;
+
+}
+.email input[type=submit]{
+  top:2px;
+  margin-left: -125px;
+  width: 125px;
+  height: 58px;
+}
+.payment img{
+  margin-top: 3px;
+  margin-right: 15px;
+}
